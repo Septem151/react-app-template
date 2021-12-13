@@ -1,8 +1,7 @@
 {
-  "name": "bingo-plugin",
+  "name": "react-app-template",
   "version": "1.0.0",
-  "description": "Frontend for the RuneLite bingo plugin",
-  "main": "index.js",
+  "description": "Template for React Apps without create-react-app",
   "scripts": {
     "start": "webpack serve --config webpack/webpack.config.js --env env=dev",
     "build": "webpack --config webpack/webpack.config.js --env env=prod",
