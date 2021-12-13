@@ -1,0 +1,12 @@
+{
+  "name": "bingo-plugin",
+  "version": "1.0.0",
+  "description": "Frontend for the RuneLite bingo plugin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Carson Mullins <carsonmullins@yahoo.com>",
+  "license": "GPL-2.0",
+  "private": true
+}
