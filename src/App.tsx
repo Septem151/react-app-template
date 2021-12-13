@@ -1,8 +1,12 @@
+import { useState } from "react";
+
 const App = () => {
+  const [count, setCount] = useState(0);
+
   return (
-    <h1>
-      Bingo Plugin - {process.env.NODE_ENV} - {process.env.NAME}
-    </h1>
+    <button onClick={() => setCount(count + 1)}>
+      You clicked: {count} times
+    </button>
   );
 };
 
