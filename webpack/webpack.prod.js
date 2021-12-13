@@ -1,5 +1,7 @@
 const path = require("path");
 const Dotenv = require("dotenv-webpack");
+const BundleAnalyzerPlugin =
+  require("webpack-bundle-analyzer").BundleAnalyzerPlugin;
 
 module.exports = {
   mode: "production",
@@ -9,5 +11,6 @@ module.exports = {
       path: path.resolve(__dirname, "..", "./.env.production"),
       safe: path.resolve(__dirname, "..", "./.env.example"),
     }),
+    new BundleAnalyzerPlugin(),
   ],
 };
